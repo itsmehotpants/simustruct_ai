@@ -1,2 +1,6 @@
-libgl1-mesa-dev
+libgl1-mesa-glx
+libglu1-mesa
+libxcursor1
+libxft2
+libxinerama1
 xvfb
