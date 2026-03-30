@@ -3,7 +3,7 @@ import numpy as np
 import signal
 import pyvista as pv
 import pandas as pd
-
+pv.start_xvfb()
 # --- GMSH THREADING PATCH ---
 if not hasattr(signal, "original_signal"):
     signal.original_signal = signal.signal
